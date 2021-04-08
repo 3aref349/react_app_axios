@@ -1,0 +1,103 @@
+
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #comments {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #comments td, #students th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #comments tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #comments tr:hover {background-color: #ddd;}
+  
+  #comments th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #fab83f;
+    color: white;
+  }
+
+  .container{
+display: flex;
+justify-content:center;
+  }
+
+  .ReportBody{
+    width:100%;
+  }
+
+  /**Dashboard*/
+.Dwrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color:#f2f7f4;
+  justify-content: center;
+  align-items: center; 
+ 
+
+  
+}
+.Drow{
+ 
+border-right: black;
+margin: 50px;
+width: 50%;
+
+}
+.Dcoltwo{
+
+}
+
+.Dseprate{
+
+}
+.btnsrow{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  justify-content: center;
+  align-self: center;
+}
+.reportbtns{
+  background-color: rgb(82, 104, 230);
+  
+  color: #fff;
+  font-family: oswald, sans-serif;
+  text-transform: uppercase;
+  
+  line-height: 2px;
+  letter-spacing: 1px;
+   margin-right: 10px;
+  text-align: center;
+ 
+  border-radius: 0;
+  border: 0;
+ 
+ height: 30px;
+ width: 150px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.reportbtns:hover{
+  background-color: rgb(189, 96, 8);
+}
+.searchbtn{
+ 
+  background-color: black;
+
+}
+  /* end Dashboard */

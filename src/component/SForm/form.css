@@ -1,0 +1,138 @@
+.Form_input{
+
+padding:20px;
+}
+
+
+
+.form-wrapper{
+
+    display: flex; 
+  
+    justify-content:  center;
+    text-align: center;
+    align-items: center;
+
+
+}
+.row{
+    display: flex; 
+    flex-direction:  row ;
+    justify-content:  center;
+    text-align: center;
+    align-items: center;
+    padding-left: 10px;
+    width: 100%;
+    justify-content: center;
+  
+}
+h5{
+  color: red;
+}
+
+.rowitem{
+
+  color: black;
+}
+.rowspan{
+
+  color:rgb(189, 96, 8);;
+}
+.rowitemlabel{
+width: 20%;
+}
+
+.price-title{
+    text-align: center;
+}
+
+
+
+.form-control {
+    display: block;
+    min-width: 20%;
+    margin: 1em;
+    padding: 1em;
+    width: 20em;
+    border-radius: 8px;
+    border-style: none;
+    border: 1px solid #e4e6e8;
+    transition: 0.1s ease;
+    border-color: #fab83f;
+  }
+  
+ 
+
+  .confirmbtn{
+    background-color: rgb(82, 104, 230);
+    padding: 13px 20px;
+    color: #fff;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 12px;
+    letter-spacing: 1px;
+     width: 100px;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 0;
+    border: 0;
+   
+    width: 20em;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  .submitbtn:hover{
+    background-color:#fab83f;
+  }
+
+  /* Check box */
+
+  input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #000;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+  }
+  
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    background-color:  #fab83f;
+    border-color:  #fab83f;
+    color: #fff;
+  }
+  
+  input[type=checkbox]:disabled + label:before {
+    transform: scale(1);
+    border-color: #aaa;
+  }
+  
+  input[type=checkbox]:checked:disabled + label:before {
+    transform: scale(1);
+    background-color: #bfb;
+    border-color: #bfb;
+  }
